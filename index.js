@@ -12,7 +12,7 @@ mongoose.connect(process.env.MONGO_URI, {
   console.log(err.message)
 });
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 app.listen(port)
 
 console.log('server listen port', port)

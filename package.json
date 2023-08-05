@@ -3,12 +3,8 @@
   "version": "1.0.2",
   "scripts": {
     "start": "node index.js",
-    "ng": "ng",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "dev": "nodemon index.js"
+    "dev": "node index.js",
+    "build": ""
   },
   "engines": {
     "node": "16.13.0",
